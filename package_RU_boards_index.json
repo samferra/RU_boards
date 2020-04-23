@@ -1,14 +1,14 @@
 {
-  "packages":
-  [
+  "packages": [
     {
       "name": "RU_boards",
       "maintainer": "Samuele Ferrari",
       "websiteURL": "https://github.com/samferra",
       "email" : "samuele.ferrari@racing-unleashed.com",
-      "email" : "samuele.ferrari@racing-unleashed.com",
-      "platforms":
-      [
+      "help": {
+        "online": "https://github.com/samferra"
+      },
+      "platforms": [
         {
           "name": "RU_boards",
           "architecture": "avr",
@@ -19,12 +19,9 @@
           "checksum": "09DE9ED1ABC8C36BBB52D96B13AE0580",
           "size": "135620",
           "boards": [
-            {
-              "name": "RU_boards"
-            }
+            { "name": "RU_boards" }
           ],
-          "toolsDependencies":
-          [
+          "toolsDependencies": [
             {
               "packager": "arduino",
               "name": "arm-none-eabi-gcc",
@@ -53,9 +50,7 @@
           ]
         }
       ],
-      "tools":
-      [
-      ]
+      "tools": []
     }
   ]
 }
