@@ -3,8 +3,9 @@
   [
     {
       "name": "RU_boards",
-      "maintainer": "Racing Unleashed",
-      "websiteURL": "www.racing-unleashed.com",
+      "maintainer": "Samuele Ferrari",
+      "websiteURL": "https://github.com/samferra",
+      "email" : "samuele.ferrari@racing-unleashed.com",
       "email" : "samuele.ferrari@racing-unleashed.com",
       "platforms":
       [
