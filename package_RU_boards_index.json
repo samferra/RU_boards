@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "RU_boards",
+      "maintainer": "Racing Unleashed",
+      "websiteURL": "www.racing-unleashed.com",
+      "email" : "samuele.ferrari@racing-unleashed.com",
+      "platforms":
+      [
+        {
+          "name": "RU_boards",
+          "architecture": "avr",
+          "version": "0.0.1",
+          "category": "RU",
+          "url": "da definire",
+          "archiveFileName": "RU_boards-0.0.1",
+          "checksum": "09DE9ED1ABC8C36BBB52D96B13AE0580",
+          "size": "135620",
+          "boards": [
+            {
+              "name": "RU_boards"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
